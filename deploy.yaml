@@ -29,8 +29,8 @@ spec:
         app: nginx-html-app
     spec:
       containers:
-      - name: nginx-html-app
-        image: gcr.io/PROJECT_ID/IMAGE:TAG
+      - name: nginx-html
+        image: nginx
         ports:
         - containerPort: 80
       imagePullSecrets:
